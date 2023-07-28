@@ -1,12 +1,3 @@
-// Simple visit counter using localStorage
-let visitCount = localStorage.getItem('visitCount') || 0;
-visitCount = parseInt(visitCount);
-visitCount++;
-localStorage.setItem('visitCount', visitCount);
-
-// Update the visit count on the page
-document.getElementById('visitCount').textContent = visitCount;
-
 function toAnimation() {
     window.location.href = 'https://drive.google.com/drive/folders/1N88A3eZg1iN1bhmZHHcAzC-rMnzNNOlL?usp=drive_link';
   }

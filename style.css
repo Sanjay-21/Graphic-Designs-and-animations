@@ -97,11 +97,3 @@
       color: aliceblue;
       background: linear-gradient(125deg, #d900ff, #0d00ff);
     }
-
-    .visit-counter {
-      color: white;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
-      align-items: center;
-    }
